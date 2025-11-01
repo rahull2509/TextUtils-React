@@ -1,6 +1,5 @@
-
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6"; // X (Twitter) icon
+import { FaXTwitter } from "react-icons/fa6"; 
 
 export default function Footer({ theme }: { theme: { text: string; base: string; nav: string; mid: string } }) {
   return (

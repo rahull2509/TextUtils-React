@@ -31,7 +31,6 @@ const App: React.FC = () => {
     text: "black",
   });
 
-  // ✅ Show alert message
   const showAlert = (message: string, type: string): void => {
     setAlert({ msg: message, type: type });
     setTimeout(() => setAlert(null), 1500);

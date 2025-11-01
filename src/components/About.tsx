@@ -7,12 +7,12 @@ export default function About({ theme }: { theme: { text: string; base: string; 
 
   const accordionStyle = {
     color: theme.text,
-    backgroundColor: theme.nav, 
+    backgroundColor: theme.nav,
   };
 
   const bodyStyle = {
     color: theme.text,
-    backgroundColor: theme.mid, 
+    backgroundColor: theme.mid,
   };
 
   const arrowClass = theme.nav === "#212529" ? "accordion-dark" : "";
@@ -124,7 +124,7 @@ export default function About({ theme }: { theme: { text: string; base: string; 
           for your blog — TextUtils ensures speed, accuracy, and convenience.
         </p>
       </div>
-       <Footer theme={theme} />
+      <Footer theme={theme} />
     </div>
   );
 }
