@@ -1,7 +1,8 @@
+import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6"; 
+import { BsTwitterX } from "react-icons/bs";
 
-export default function Footer({ theme }: { theme: { text: string; base: string; nav: string; mid: string } }) {
+export default function Footer({ theme }: { theme: { text: string; base: string; nav: string; mid: string } }): React.ReactElement {
   return (
     <footer
       style={{
@@ -32,7 +33,7 @@ export default function Footer({ theme }: { theme: { text: string; base: string;
           rel="noopener noreferrer"
           style={{ margin: "0 10px", color: theme.text, fontSize: "20px" }}
         >
-          <FaXTwitter />
+          <BsTwitterX />
         </a>
 
         {/* LinkedIn */}
